@@ -2,8 +2,8 @@ Package: torreStats
 Type: Package
 Title: Summer Lab Functions
 Version: 0.1.0
-Author: William W.
-Maintainer: zero@ou.edu
+Author: William Wilson
+Maintainer: <zero@ou.edu>
 Description: Contains useful functions for MATH-4753.
 License: MIT + file LICENSE
 Encoding: UTF-8
