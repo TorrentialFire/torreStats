@@ -15,8 +15,8 @@ ntickets <- function(N = 200, gamma = 0.02, p = 0.95) {
 
   # Calculate a reasonable upper bound for the search for the optimum number of
   # tickets to sell. The interval of the search will be,
-  # (N, N/p)
-  upper_bound <- N + (2 * N * ((1 - p)/p))
+  # (N, N + (2 * (N/p - N)))
+  upper_bound <- N + (2 * (N/p - N))
 
   # Generate a "continuous" range of values for graphing the Normal approximation.
   x <- seq(from = N, to = upper_bound, by = cont_delta)
