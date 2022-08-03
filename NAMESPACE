@@ -3,6 +3,7 @@
 export(mybin)
 export(myboot)
 export(mycltp)
+export(mymlnorm)
 export(myncurve)
 export(ntickets)
 export(torreFun)
